@@ -1,0 +1,5 @@
+f1 = open('D:/OpenMe.mp3')
+f2 = open('D:/OpenMe1.txt','x')
+f2.write(f1.read())
+#f2.flush()
+f1.close()
